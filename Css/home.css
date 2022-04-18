@@ -1,0 +1,1420 @@
+/*Configuração Global*/
+*{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+html, body {
+ overflow-x: hidden;
+}
+
+/*Importação de Fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
+
+/*Customização do Cabeçalho*/
+header{
+    margin: 50px;
+}
+
+/*Customização da Navegação*/
+nav{
+    display: flex;
+}
+
+/*Customização da Logo*/
+.Logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-right: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*Customização do Local*/
+.Local{
+    font-size: 15px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    margin-right: 25px;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+/*Efetio hover Local*/
+.Local:hover{
+    color: #009c3b;
+    transition: 0.5s;
+}
+
+/*Customização da Navegacao items*/
+.Navegacao{
+    display: flex;
+}
+
+/*Customização Versão*/
+.Versao{
+    margin-left: auto;
+    font-size: 15px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}
+
+/*Customização Comecar meu projeto*/
+.Comecar_projeto{
+    background-color: black;
+    font-size: 14px;
+    color: white;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-left: 30px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+/*Efeito hover Comecar meu projeto*/
+.Comecar_projeto:hover{
+    color: #717070;
+    transition: 0.5s;
+}
+
+/*Customização Pai_cabecalho*/
+.Pai_cabecalho{
+    margin-top: 80px;
+    display: flex;
+}
+
+/*Customização Divisao1 cabecalho*/
+.Divisao1_cabecalho{
+    margin-right: 145px;
+}
+
+/*Customização Titulo principal*/
+.Titulo_principal{
+    font-size: 70px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    width: 500px;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+/*Customização Sub titulo*/
+.Sub_titulo{
+    margin-top: 20px;
+    font-size: 21px;
+    color: #717070;
+    font-family: 'Roboto', sans-serif;
+    width: 440px;
+}
+
+/*Configuração do Focus*/
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+/*Customização E-mail*/
+.E-mail{
+    margin-top: 30px;
+    background-color: white;
+    border: 3px solid black;
+    padding: 8px;
+    color: 717070;
+    width: 180px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+/*Customização Enviar*/
+.Enviar{
+    background-color: black;
+    font-size: 14px;
+    color: white;
+    padding: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    width: 100px;
+    position: relative;
+    right: 5px;
+    top: 1px;
+    height: 38px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+/*Efeito hover Enviar*/
+.Enviar:hover{
+    color: #717070;
+    transition: 0.5s;
+}
+
+/*Customização Banner 1*/
+.Banner_1{
+    width: 600px;
+    height: 350px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/*Customização do Mouse*/
+.Mouse{
+    display: block;
+    margin: 0 auto;
+    width: 30px;
+    padding: 50px;
+    margin-bottom: 130px;
+}
+
+/*Customização do Corpo*/
+main{
+    margin: 50px;
+}
+
+/*Customização do Pai do corpo*/
+.Pai_do_corpo{
+    display: flex;
+}
+
+/*Customização do Divisao1 corpo*/
+.Divisao1_corpo{
+    margin-right: 80px;
+}
+
+/*Customização do Titulo corpo*/
+.Titulo_corpo{
+    font-size: 60px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    width: 570px;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+/*Customização do Subtitulo corpo*/
+.Subtitulo_corpo{
+    margin-top: 20px;
+    font-size: 21px;
+    color: #717070;
+    font-family: 'Roboto', sans-serif;
+    width: 540px;
+}
+
+/*Customização do Globo banner*/
+.Globo_banner{
+    width: 580px;
+    height: 330px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/*Customização Pai do time*/
+.Pai_do_time{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 130px;
+}
+
+/*Customizaão do Dvisao 1*/
+.Dvisao_1{
+    display: flex;
+    margin-right: 100px;
+}
+
+/*Customização do David*/
+.David{
+    width: 60px;
+}
+
+/*Customização do Secao sub 1*/
+.Secao_sub_1{
+    display: block;
+    padding: 3px;
+}
+
+/*Customização do Nome 1*/
+.Nome1{
+    font-size: 15px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 3px;
+    margin-right: 25px;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+/*Customização do Sub1*/
+.Sub1{
+    font-size: 14px;
+    color: #717070;
+    font-family: 'Roboto', sans-serif;
+    padding: 3px;
+    margin-right: 10px;
+}
+
+/*Customizaão do Dvisao 2*/
+.Dvisao_2{
+    display: flex;
+    margin-right: 100px;
+}
+
+/*Customização do Jeferson*/
+.Jeferson{
+    width: 60px;
+}
+
+/*Customização do Secao sub 2*/
+.Secao_sub_2{
+    display: block;
+    padding: 3px;
+}
+
+/*Customização do Nome 2*/
+.Nome2{
+    font-size: 15px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 3px;
+    margin-right: 25px;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+/*Customização do Sub 2*/
+.Sub2{
+    font-size: 14px;
+    color: #717070;
+    font-family: 'Roboto', sans-serif;
+    padding: 3px;
+    margin-right: 10px;
+}
+
+/*Customizaão do Dvisao 3*/
+.Dvisao_3{
+    display: flex;
+    margin-right: 100px;
+}
+
+/*Customização do Gabriel*/
+.Gabriel{
+    width: 60px;
+}
+
+/*Customização do Secao sub 3*/
+.Secao_sub_3{
+    display: block;
+    padding: 3px;
+}
+
+/*Customização do Nome 3*/
+.Nome3{
+    font-size: 15px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 3px;
+    margin-right: 25px;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+/*Customização do Sub 3*/
+.Sub3{
+    font-size: 14px;
+    color: #717070;
+    font-family: 'Roboto', sans-serif;
+    padding: 3px;
+    margin-right: 10px;
+}
+
+/*Customizaão do Dvisao 4*/
+.Dvisao_4{
+    display: flex;
+    margin-right: 100px;
+}
+
+/*Customização do Everton*/
+.Everton{
+    width: 60px;
+}
+
+/*Customização do Secao sub 1*/
+.Secao_sub_4{
+    display: block;
+    padding: 3px;
+}
+
+/*Customização do Nome 1*/
+.Nome4{
+    font-size: 15px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 3px;
+    margin-right: 25px;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+/*Customização do Sub1*/
+.Sub4{
+    font-size: 14px;
+    color: #717070;
+    font-family: 'Roboto', sans-serif;
+    padding: 3px;
+    margin-right: 10px;
+}
+
+/*Customização do Pai descida 1*/
+.Pai_descida1{
+    display: flex;
+    margin-bottom: 50px
+}
+
+.Divisao_descida1{
+    margin-right: 50px;
+}
+
+.Titulo_descida1{
+    font-size: 60px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    width: 590px;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);   
+}
+
+.Sub_descida1{
+    margin-top: 20px;
+    font-size: 21px;
+    color: #717070;
+    font-family: 'Roboto', sans-serif;
+    width: 540px;
+}
+
+.Banner_descida1{
+    width: 620px;
+    height: 330px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    position: relative;
+    bottom: 60px;
+}
+
+/*Customização do Pai descida 1*/
+.Pai_descida2{
+    display: flex;
+    margin-bottom: 50px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.25);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.Divisao_descida2{
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
+
+.Titulo_descida2{
+    font-size: 60px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    width: 750px;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+.Sub_descida2{
+    margin-top: 20px;
+    font-size: 21px;
+    color: #717070;
+    font-family: 'Roboto', sans-serif;
+    width: 530px;
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+.Banner_descida2{
+    width: 250px;
+    height: 250px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+/*Customização do Pai descida 1*/
+.Pai_descida3{
+    display: flex;
+    margin-bottom: 50px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.25);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.Divisao_descida3{
+    margin-right: 180px;
+    margin-bottom: 100px;
+}
+
+.Titulo_descida3{
+    font-size: 60px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    width: 500px;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25); 
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+.Sub_descida3{
+    margin-top: 20px;
+    font-size: 21px;
+    color: #717070;
+    font-family: 'Roboto', sans-serif;
+    width: 530px;
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+.Banner_descida3{
+    width: 380px;
+    height: 250px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+/*Customização do Pai descida 1*/
+.Pai_descida4{
+    display: flex;
+    margin-bottom: 100px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.25);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.Divisao_descida4{
+    margin-right: 180px;
+    margin-bottom: 110px;
+}
+
+.Titulo_descida4{
+    font-size: 60px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    width: 500px;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+.Sub_descida4{
+    margin-top: 20px;
+    font-size: 21px;
+    color: #717070;
+    font-family: 'Roboto', sans-serif;
+    width: 530px;
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+.Banner_descida4{
+    width: 380px;
+    height: 250px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+/*Customização do Pai descida 1*/
+.Pai_descida5{
+    display: flex;
+}
+
+.Divisao_descida5{
+    margin-right: 200px;
+    margin-bottom: 110px;
+}
+
+.Titulo_descida5{
+    font-size: 60px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    width: 550px;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+.Sub_descida5{
+    margin-top: 20px;
+    font-size: 21px;
+    color: #717070;
+    font-family: 'Roboto', sans-serif;
+    width: 530px;
+}
+
+.Banner_descida5{
+    width: 380px;
+    height: 250px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    text-align: center;
+}
+
+.wrapper > div{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 50px;
+    width: 450px;
+    margin-right: 140px;
+    margin-bottom: 100px;
+}
+
+.wrapper > div > img{
+    width: 450px;
+    height: 250px;
+}
+
+.Linha{
+    width: 1240px;
+    height: 1px;
+    background: #71707081;
+    margin-top: 50px;
+}
+
+footer{
+    margin: 20px;
+}
+
+.Logo1{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-right: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 60px;
+}
+
+.Secao_footer{
+    display: flex;
+    margin-top: 150px;
+}
+
+.Mulher_sentada{
+    width: 200px;
+}
+
+ul > a{
+    margin-right: 20px;
+    font-size: 15px;
+    color: #717070;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.Copy{
+    margin-top: 30px;
+    font-size: 15px;
+    color: #717070;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    width: 600px;
+}
+
+.Div_escritas{
+    margin: 0 auto;
+    position: relative;
+    right: 50px;
+}
+
+#Notion{
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-decoration: dashed;
+}
+
+/*Tablet Custom Responsive*/
+@media (max-width: 820px){
+    /*Customização Pai_cabecalho*/
+    .Pai_cabecalho{
+        margin-top: 80px;
+        display: grid;
+    }
+    /*Customização Banner 1*/
+    .Banner_1{
+        width: 500px;
+        height: 350px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        position: relative;
+        bottom: 300px;
+        left: 100px;
+    }
+
+    /*Customização Divisao1 cabecalho*/
+    .Divisao1_cabecalho{
+        margin-right: 0px;
+        position: relative;
+        top: 440px;
+    }
+
+    /*Customização Titulo principal*/
+    .Titulo_principal{
+        font-size: 70px;
+        color: #000000;
+        font-family: 'Roboto', sans-serif;
+        width: 510px;
+        text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+        text-align: center;
+        position: relative;
+        left: 90px;
+    }
+
+    /*Customização Sub titulo*/
+    .Sub_titulo{
+        margin-top: 13px;
+        font-size: 21px;
+        color: #717070;
+        font-family: 'Roboto', sans-serif;
+        width: 480px;
+        text-align: center;
+        position: relative;
+        top: 30px;
+        left: 105px;
+    }
+    /*Customização E-mail*/
+    .E-mail{
+        margin-top: 30px;
+        background-color: white;
+        border: 4px solid black;
+        padding: 15px;
+        color: 717070;
+        width: 200px;
+        font-size: 14px;
+        box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+        position: relative;
+        top: 100px;
+        left: 165px;
+    }
+
+    /*Customização Enviar*/
+    .Enviar{
+        background-color: black;
+        font-size: 14px;
+        color: white;
+        padding: 12px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        width: 130px;
+        position: relative;
+        right: 5px;
+        top: 1px;
+        height: 55px;
+        box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+        cursor: pointer;
+        position: relative;
+        top: 99px;
+        left: 155px;
+    }
+    /*Customização do Mouse*/
+    .Mouse{
+        display: block;
+        margin: 0 auto;
+        width: 30px;
+        padding: 50px;
+        margin-bottom: 130px;
+        position: relative;
+        top: 220px;
+    }
+    /*Customização do Pai do corpo*/
+    .Pai_do_corpo{
+        display: grid;
+    }
+    /*Customização do Divisao1 corpo*/
+    .Divisao1_corpo{
+        margin-right: 0px;
+        position: relative;
+        top: 130px;
+    }
+    /*Customização do Titulo corpo*/
+    .Titulo_corpo{
+        font-size: 50px;
+        color: #000000;
+        font-family: 'Roboto', sans-serif;
+        width: 700px;
+        text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+        text-align: center;
+        position: relative;
+        left: 10px;
+    }
+    /*Customização do Subtitulo corpo*/
+    .Subtitulo_corpo{
+        margin-top: 20px;
+        font-size: 19px;
+        color: #717070;
+        font-family: 'Roboto', sans-serif;
+        width: 500px;
+        text-align: center;
+        position: relative;
+        top: 30px;
+        left: 105px;
+    }
+    /*Customização do Globo banner*/
+    .Globo_banner{
+        width: 0px;
+        height: 0px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    /*Customização Pai do time*/
+    .Pai_do_time{
+        display: flex;
+        margin-top: 100px;
+        margin-bottom: 130px;
+        position: relative;
+        top: 130px;
+        left: 35px;
+    }
+    /*Customizaão do Dvisao 1*/
+    .Dvisao_1{
+        display: grid;
+        margin-right: 50px;
+        width: 200px;
+    }
+
+    /*Customização do David*/
+    .David{
+        width: 60px;
+        height: 60px;
+        position: relative;
+        left: 15px;
+        margin-bottom: 10px;
+    }
+
+    /*Customização do Secao sub 1*/
+    .Secao_sub_1{
+        display: block;
+        padding: 3px;
+    }
+
+    /*Customização do Nome 1*/
+    .Nome1{
+        font-size: 15px;
+        color: black;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        padding: 3px;
+        text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+        position: relative;
+        top: 20px;
+        width: 80px;
+    }
+
+    /*Customização do Sub1*/
+    .Sub1{
+        font-size: 9px;
+        color: #717070;
+        font-family: 'Roboto', sans-serif;
+        padding: 3px;
+        margin-right: 10px;
+        position: relative;
+        bottom: 20px;
+        width: 80px;
+        left: 2px;
+    }
+    /*Customizaão do Dvisao 2*/
+    .Dvisao_2{
+        display: grid;
+        margin-right: 50px;
+        width: 200px;
+    }
+
+    /*Customização do Jeferson*/
+    .Jeferson{
+        width: 60px;
+        height: 60px;
+        position: relative;
+        left: 40px;
+        margin-bottom: 10px;
+    }
+
+    /*Customização do Secao sub 2*/
+    .Secao_sub_2{
+        display: block;
+        padding: 3px;
+    }
+
+    /*Customização do Nome 2*/
+    .Nome2{
+        font-size: 15px;
+        color: black;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        padding: 3px;
+        text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+        position: relative;
+        top: 20px;
+        width: 150px;
+    }
+
+    /*Customização do Sub 2*/
+    .Sub2{
+        font-size: 9px;
+        color: #717070;
+        font-family: 'Roboto', sans-serif;
+        padding: 3px;
+        margin-right: 10px;
+        position: relative;
+        bottom: 20px;
+        width: 100px;
+        left: 20px;
+    }
+    /*Customizaão do Dvisao 3*/
+    .Dvisao_3{
+        display: grid;
+        margin-right: 50px;
+        width: 200px;
+    }
+
+    /*Customização do Gabriel*/
+    .Gabriel{
+        width: 60px;
+        height: 60px;
+        position: relative;
+        left: 2px;
+        margin-bottom: 10px;
+    }
+
+    /*Customização do Secao sub 3*/
+    .Secao_sub_3{
+        display: block;
+        padding: 3px;
+    }
+
+    /*Customização do Nome 3*/
+    .Nome3{
+        font-size: 15px;
+        color: black;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        padding: 3px;
+        text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+        position: relative;
+        top: 20px;
+        width: 150px;
+    }
+
+    /*Customização do Sub 3*/
+    .Sub3{
+        font-size: 9px;
+        color: #717070;
+        font-family: 'Roboto', sans-serif;
+        padding: 3px;
+        margin-right: 10px;
+        position: relative;
+        bottom: 20px;
+        width: 100px;
+        left: 1px;
+    }
+    /*Customizaão do Dvisao 4*/
+    .Dvisao_4{
+        display: grid;
+        margin-right: 50px;
+        width: 200px;
+        position: relative;
+        right: 90px;
+    }
+
+    /*Customização do Everton*/
+    .Everton{
+        width: 60px;
+        height: 60px;
+        position: relative;
+        left: 13px;
+        margin-bottom: 10px;
+    }
+
+    /*Customização do Secao sub 1*/
+    .Secao_sub_4{
+        display: block;
+        padding: 3px;
+    }
+
+    /*Customização do Nome 1*/
+    .Nome4{
+        font-size: 15px;
+        color: black;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        padding: 3px;
+        text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+        position: relative;
+        top: 20px;
+        width: 150px;
+        left: 9px;
+    }
+
+    /*Customização do Sub1*/
+    .Sub4{
+        font-size: 9px;
+        color: #717070;
+        font-family: 'Roboto', sans-serif;
+        padding: 3px;
+        margin-right: 10px;
+        position: relative;
+        bottom: 20px;
+        width: 100px;
+        left: 1px;
+    }
+    /*Customização do Pai descida 1*/
+    .Pai_descida1{
+        display: grid;
+        margin-bottom: 50px;
+        position: relative;
+        top: 50px;
+    }
+    .Banner_descida1{
+        width: 500px;
+        height: 300px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        position: relative;
+        bottom: 60px;
+        position: relative;
+        bottom: 150px;
+        left: 100px;
+    }
+    .Titulo_descida1{
+        font-size: 50px;
+        color: #000000;
+        font-family: 'Roboto', sans-serif;
+        width: 550px;
+        text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+        text-align: center;
+        position: relative;
+        left: 80px;
+        top: 450px;
+    }
+    .Sub_descida1{
+        margin-top: 20px;
+        font-size: 21px;
+        color: #717070;
+        font-family: 'Roboto', sans-serif;
+        width: 540px;
+    }
+    .Sub_descida1{
+        margin-top: 20px;
+        font-size: 19px;
+        color: #717070;
+        font-family: 'Roboto', sans-serif;
+        width: 530px;
+        position: relative;
+        top: 470px;
+        left: 90px;
+        text-align: center;
+    }
+    /*Customização do Pai descida 1*/
+    .Pai_descida2{
+        display: grid;
+        margin-bottom: 50px;
+        padding: 15px;
+        position: relative;
+        top: 300px;
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
+    }
+    .Divisao_descida2{
+        margin-right: 50px;
+        margin-bottom: 100px;
+    }
+    .Titulo_descida2{
+        font-size: 60px;
+        color: #000000;
+        font-family: 'Roboto', sans-serif;
+        width: 750px;
+        text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+        position: relative;
+        top: 300px;
+        left: 140px;
+    }
+    .Sub_descida2{
+        margin-top: 19px;
+        font-size: 21px;
+        color: #717070;
+        font-family: 'Roboto', sans-serif;
+        width: 530px;
+        position: relative;
+        top: 350px;
+        left: 60px;
+        text-align: center;
+    }
+    .Banner_descida2{
+        width: 250px;
+        height: 250px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        position: relative;
+        top: -350px;
+        left: 220px;
+    }
+    .Pai_descida3{
+        display: grid;
+        margin-bottom: 50px;
+        padding: 15px;
+        position: relative;
+        top: 300px;
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
+    }
+    .Divisao_descida3{
+        margin-right: 50px;
+        margin-bottom: 100px;
+    }
+    .Titulo_descida3{
+        font-size: 60px;
+        color: #000000;
+        font-family: 'Roboto', sans-serif;
+        width: 600px;
+        text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+        position: relative;
+        top: 350px;
+        left: 50px;
+    }
+    .Sub_descida3{
+        margin-top: 19px;
+        font-size: 21px;
+        color: #717070;
+        font-family: 'Roboto', sans-serif;
+        width: 530px;
+        position: relative;
+        top: 400px;
+        left: 80px;
+        text-align: center;
+    }
+    .Banner_descida3{
+        width: 380px;
+        height: 250px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        position: relative;
+        top: -250px;
+        left: 130px;
+    }
+    .Pai_descida4{
+        display: grid;
+        margin-bottom: 50px;
+        padding: 15px;
+        position: relative;
+        top: 300px;
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
+    }
+    .Divisao_descida4{
+        margin-right: 180px;
+        margin-bottom: 110px;
+    }
+    .Titulo_descida4{
+        font-size: 60px;
+        color: #000000;
+        font-family: 'Roboto', sans-serif;
+        width: 600px;
+        text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+        position: relative;
+        top: 380px;
+        left: 60px;
+    }
+    .Sub_descida4{
+        margin-top: 19px;
+        font-size: 21px;
+        color: #717070;
+        font-family: 'Roboto', sans-serif;
+        width: 530px;
+        position: relative;
+        top: 430px;
+        left: 60px;
+        text-align: center;
+    }
+    .Banner_descida4{
+        width: 380px;
+        height: 250px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        position: relative;
+        top: -200px;
+        left: 130px;
+    }
+    .Pai_descida5{
+         display: grid;
+        margin-bottom: 50px;
+        padding: 15px;
+        position: relative;
+        top: 300px;
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
+    }
+    .Divisao_descida5{
+        margin-bottom: 110px;
+    }
+
+    .Titulo_descida5{
+        font-size: 60px;
+        color: #000000;
+        font-family: 'Roboto', sans-serif;
+        width: 630px;
+        text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+        position: relative;
+        top: 380px;
+        left: 10px;
+        text-align: center;
+    }
+
+    .Sub_descida5{
+        margin-top: 19px;
+        font-size: 21px;
+        color: #717070;
+        font-family: 'Roboto', sans-serif;
+        width: 530px;
+        position: relative;
+        top: 430px;
+        left: 60px;
+        text-align: center;
+    }
+
+    .Banner_descida5{
+        width: 380px;
+        height: 250px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        position: relative;
+        top: -280px;
+        left: 130px;''
+    }
+    .wrapper{
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        text-align: center;
+        position: relative;
+        top: 400px;
+        left: 70px;
+        width: 400px;
+    }
+    .wrapper > div{
+        background-color: rgb(255, 255, 255);
+        box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        width: 450px;
+        margin-bottom: 100px;
+    }
+    .Linha{
+        width: 650px;
+        height: 1px;
+        background: #71707081;
+        margin-top: 50px;
+        position: relative;
+        top: 380px;
+        left: 18px;
+    }
+    footer{
+        margin: 20px;
+        position: relative;
+        top: 400px;
+    }
+    .Logo1{
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        margin-right: 10px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        display: block;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .Secao_footer{
+        display: flex;
+        margin-top: 150px;
+    }
+
+    .Mulher_sentada{
+        width: 150px;
+    }
+    ul > a{
+        margin-right: 17px;
+        font-size: 12px;
+        color: #717070;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        position: relative;
+        left: 70px;
+    }
+    .Copy{
+        margin-top: 30px;
+        font-size: 12px;
+        color: #717070;
+        font-family: 'Roboto', sans-serif;
+        text-align: left;
+        width: 430px;
+        position: relative;
+        left: 70px;
+    }
+
+    .Div_escritas{
+        margin: 0 auto;
+        position: relative;
+        right: 50px;
+    }
+
+    #Notion{
+        color: #000000;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        text-decoration: dashed;
+    }
+}
+
+/*Tablet Custom Responsive*/
+@media (max-width: 393px){
+    /*Customização da Navegação*/
+nav{
+    display: flex;
+}
+header{
+    margin-right: 40px;
+}
+
+/*Customização da Logo*/
+.Logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-right: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*Customização do Local*/
+.Local{
+    font-size: 10px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 5px;
+    margin-right: 25px;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+    position: relative;
+    top: 10px;
+}
+
+/*Customização Versão*/
+.Versao{
+    margin-left: auto;
+    font-size: 0px;
+    width: 0px;
+    height: 0px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+}
+
+/*Customização Comecar meu projeto*/
+.Comecar_projeto{
+    background-color: black;
+    font-size: 12px;
+    color: white;
+    padding: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+    }
+    /*Customização Pai_cabecalho*/
+    .Pai_cabecalho{
+        margin-top: 80px;
+        display: grid;
+    }
+    /*Customização Banner 1*/
+    .Banner_1{
+        width: 260px;
+        height: 180px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        position: relative;
+        bottom: 340px;
+        left: 20px;
+    }
+
+    /*Customização Divisao1 cabecalho*/
+    .Divisao1_cabecalho{
+        margin-right: 0px;
+        position: relative;
+        top: 230px;
+    }
+
+    /*Customização Titulo principal*/
+    .Titulo_principal{
+        font-size: 43px;
+        color: #000000;
+        font-family: 'Roboto', sans-serif;
+        width: 300px;
+        text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+        text-align: center;
+        position: relative;
+        left: -8px;
+    }
+
+    /*Customização Sub titulo*/
+    .Sub_titulo{
+        margin-top: 13px;
+        font-size: 16px;
+        color: #717070;
+        font-family: 'Roboto', sans-serif;
+        width: 300px;
+        text-align: center;
+        position: relative;
+        top: 20px;
+        left: -5px;
+    }
+    /*Customização E-mail*/
+    .E-mail{
+        margin-top: 30px;
+        background-color: white;
+        border: 4px solid black;
+        padding: 15px;
+        color: 717070;
+        width: 200px;
+        font-size: 14px;
+        box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+        position: relative;
+        top: 100px;
+        left: 165px;
+    }
+
+    /*Customização Enviar*/
+    .Enviar{
+        background-color: black;
+        font-size: 14px;
+        color: white;
+        padding: 12px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        width: 130px;
+        position: relative;
+        right: 5px;
+        top: 1px;
+        height: 55px;
+        box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+        cursor: pointer;
+        position: relative;
+        top: 99px;
+        left: 155px;
+    }
+    /*Customização do Mouse*/
+    .Mouse{
+        display: block;
+        margin: 0 auto;
+        width: 30px;
+        padding: 50px;
+        margin-bottom: 130px;
+        position: relative;
+        top: 220px;
+    }
+}
