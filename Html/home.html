@@ -4,59 +4,371 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Título da página-->
     <title>Nubia</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--Importar o arquivo CSS-->
     <link rel="stylesheet" href="..//Css/home.css">
 </head>
 <body>
     <!--Navegação-->
     <nav>
         <!--Logo da Nubia-->
-        <img src="..//Img/logo.png" alt="Logo da Nubia">
-        <!--ínicio-->
-        <a href="">ínicio</a>
-        <!--Preços-->
-        <a href="">Preços</a>
-        <!--Cases-->
-        <a href="">Cases</a>
-        <!--Sobre nós-->
-        <a href="">Sobre nós</a>
-        <!--Localização-->
-        <p></p>
-        <!--Botão-->
-        <button>Solicitar orçamento</button>
+        <img class="Logo" src="..//Img/logo.png" alt="Logo da Nubia">
+        <!--Navegação do ínicio-->
+        <a class="Inicio" href="home.html">ínicio</a>
+        <!--Navegação de preços-->
+        <a class="Precos" href="#Preco">Preços</a>
+        <!--Navegação de cases-->
+        <a class="Cases" href="#Cases">Cases</a>
+        <!--Navegação de sobre nós-->
+        <a class="Sobre" href="#Sobre">Sobre nós</a>
+        <!--Navegação de Brasil-->
+        <h3 class="Brasil">Brasil</h3>
+        <!--Solicitar orçamento-->
+        <button class="Solicitar_orcamento">Solicitar orçamento</button>
     </nav>
     <!--Cabeçalho-->
     <header>
-        <!--Divisão do assunto principal-->
-        <div>
-            <!--Frase de Hello World-->
-            <p>&lt;Hello World/&gt;</p>
-            <!--Título-->
-            <h1>Nós criamos histórias que ajudam você a ter sucesso!</h1>
-            <!--Resumo sobre o que somos-->
-            <p>Somos expecialistas quando o assunto é tecnologia! Caso queira saber mais, envie o seu e-mail abaixo que entraremos em contato.</p>
-            <!--Inserir o e-mail-->
-            <input type="email" name="" id="" placeholder="Digite o seu melhor e-mail">
-            <!--Botão para enviar o e-mail-->
-            <button><img src="" alt=""></button>
+        <!--Divisão do cabeçalho-->
+        <div class="Divisao_cabecalho">
+            <!--Código 1-->
+            <p class="Codigo1" data-aos="fade-up">&lt;Hello World!/&gt;</p>
+            <!--Título sobre nossa solução-->
+            <h1 class="Titulo_principal">Nós criamos histórias que ajudam você a ter sucesso!</h1>
+            <!--Quebra de linha-->
+            <h5 style="color: transparent; margin-bottom: 10px;">*</h5>
+            <!--Descriçao sobre a nossa solução-->
+            <p class="Descricao_1">Somos expecialistas quando o assunto é tecnologia! Caso queira saber mais, envie o seu e-mail abaixo para entrarmos em contato.</p>
+            <!--Quebra de linha-->
+            <h6 style="color: transparent; margin-bottom: 10px;">*</h6>
+            <!--Divisão do email-->
+            <div class="Divisao_email">
+                <!--Digitar o e-mail-->
+                <input class="E-mail" type="email" name="" id="" placeholder="Digite o seu melhor e-mail">
+                <!--Enviar o e-mail-->
+                <button class="Enviar_email"><img class="Imagem_enviar_email" src="..//Img/email.png" alt=""></button>
+            </div>
         </div>
     </header>
+    <!--Corpo-->
     <main>
-        <img src="..//Img/code-preview.png" alt="">
-        <img src="..//Img/point-gradient.png" alt="">
-        <section>
-            <div>
-                <h3>Utilizamos as mais recentes ferramentas do mercado.</h3>
-                <p>Com o nosso time, você terá sempre as melhores ferramentas utilizadas em seu projeto! Como o Visual  Stúdio Code.</p>
-                <button>Saiba mais</button>
+        <h1 style="margin-top: 50px; color: transparent;">/</h1>
+        <!--Imagem de preview de código-->
+        <img class="VSCode" src="..//Img/code-preview.png" alt="">
+        <!--Ponto com efeito degradê-->
+        <img class="Ponto" src="..//Img/point-gradient.png" alt="">
+        <!--Secção 1-->
+        <section class="Secao_1">
+            <!--Divisão do VScode-->
+            <div class="Divisao_vscode">
+                <!--Título do VScode-->
+                <h3 class="Titulo_vscode" data-aos="fade-up">Utilizamos as mais recentes ferramentas do mercado.</h3>
+                <!--Descrição do VScode-->
+                <p class="Descricao_vscode">Com o nosso time, você terá sempre as melhores ferramentas utilizadas em seu projeto! Como o Visual  Stúdio Code.</p>
+                <!--Botão para saber mais sobre o VScode-->
+                <button class="Saiba_mais">Saiba mais</button>
             </div>
-            <div>
-                <img src="..//Img/visual-studio-code.png" alt="">
+            <!--Divisão da imagem do VScode-->
+            <div class="Divisao_img">
+                <!--Imagem do VScode-->
+                <img class="Img_vscode" src="..//Img/visual-studio-code.png" alt="" data-aos="fade-left">
             </div>
         </section>
+        <!--Traço-->
         <hr>
-        <h1>Por que escolher a Nubia?</h1>
-        
+        <!--Por que escolher a Nubia-->
+        <h1 class="Porque_escolher_nubia" data-aos="fade-up">Por que escolher a Nubia?</h1>
+        <!--Gridview com os motivos do porque escolher a Nubia-->
+        <div class="grid-skills">
+            <!--Gridview item 1-->
+          <div class="grid-item" data-aos="fade-up">
+              <!--Ícone 1-->
+              <img class="Icon" src="..//Img/diploma.png">
+              <!--Título 1-->
+              <h3 class="Title">Formação completa</h3>
+              <!--Resumo 1-->
+              <p class="Resume">Temos profissionais formados e adequados para cada serviço.</p>
+          </div>
+          <!--Gridview item 2-->
+          <div class="grid-item" data-aos="fade-up">
+              <!--Ícone 2-->
+              <img class="Icon" src="..//Img/programacao_avancada.png">
+              <!--Título 2-->
+              <h3 class="Title">Programação avançada</h3>
+              <!--Resumo 2-->
+              <p class="Resume">Nossos níveis de programação é elevado em comparação com o mercado padrão.</p>
+          </div>
+          <!--Gridview item 3-->
+          <div class="grid-item" data-aos="fade-up">
+              <!--ícone 3-->
+              <img class="Icon" src="..//Img/preco_valor.png">
+              <!--Título 3-->
+              <h3 class="Title">Preço e valor</h3>
+              <!--Resumo 3-->
+              <p class="Resume">Tenha qualidade em seus projetos mas com o equilíbrio do preço baixo.</p>
+          </div>
+          <!--Gridview item 4-->
+          <div class="grid-item" data-aos="fade-down">
+              <!--Ícone 4-->
+              <img class="Icon" src="..//Img/atendimento.png">
+              <!--Título 4-->
+              <h3 class="Title">Atendimento</h3>
+              <!--Resumo 4-->
+              <p class="Resume">Tenha atendimentos de 10h por dia, para te dar suporte a tudo que precisar.</p>
+          </div>
+          <!--Gridview item 5-->
+          <div class="grid-item" data-aos="fade-down">
+              <!--Ícone 5-->
+              <img class="Icon" src="..//Img/projetos.png">
+              <!--Título 5-->
+              <h3 class="Title">Projetos profissionais</h3>
+              <!--Resumo 5-->
+              <p class="Resume">Tenha projetos que destaque a sua marca e apague sua concorrência.</p>
+          </div>
+          <!--Gridview item 6-->
+          <div class="grid-item" data-aos="fade-down">
+              <!--Ícon 6-->
+              <img class="Icon" src="..//Img/expe.png">
+              <!--Título 6-->
+              <h3 class="Title">Experiência</h3>
+              <!--Resumo 6-->
+              <p class="Resume">Somos experientes neste nicho, com um time cheio de progídios.</p>
+          </div>
+        </div>
+        <!--Traço-->
+        <hr>
+        <!--Método das 3 etapas-->
+        <h1 class="Metodo_etapas" data-aos="fade-up">Método das 3 etapas.</h1>
+        <!--Descrição dos métodos-->
+        <p class="Descricao_metodos">O método das 3 etapas consiste em uma metodologia que criamos para acelerar os processos de desenvolvimentos! Acompanhe abaixo.</p>
+        <!--Secão dos métodos-->
+        <section class="Secao_2">
+            <!--Divisão do briefing-->
+            <div class="Divisao_briefing" data-aos="fade-up">
+                <!--Imagem do briefing-->
+                <img class="Img_briefing" src="..//Img/briefing.png">
+                <!--Briefing-->
+                <h3 class="Briefing">Briefing</h3>
+                <!--Descriçlão do briefing-->
+                <p class="Descricao_briefing">Realizamos ligaçõs e se possível até reuniões
+para podermos alinhar os pensamentos de ambos lados. Tudo isso, para que o porojeto possa ser iniciado sem quaisquer dúvidas.</p>
+            </div>
+            <!--Divisão do design-->
+            <div class="Divisao_design" data-aos="fade-up">
+                <!--Imagem do design-->
+                <img class="Img_design" src="..//Img/design.png">
+                <!--Design-->
+                <h3 class="Design">Design</h3>
+                <!--Descrição do design-->
+                <p class="Descricao_design">Aqui é onde criamos a identidade visual do seu projeto. Onde damos cor, animação e vida! Ao processo, o cliente pode ir dando opiniões sobre o que quer ou não em seu design.</p>
+            </div>
+            <!--Divisão do desenvolvimento-->
+            <div class="Divisao_desenvolvimento" data-aos="fade-up">
+                <!--Imagem do desenvolvimento-->
+                <img class="Img_desenvolvimento" src="..//Img/desenvolvimento.png">
+                <!--Desenvolvimento-->
+                <h3 class="Desenvolvimento">Desenvolviemento</h3>
+                <!--Descriçõ do desenvolvimento-->
+                <p class="Descricao_desenvolvimento">Nesta etapa, é onde iniciamos o desenvolvimento. Aqui é onde colocamos de fato a mão na massa! É um processo focado em codificação e testes.</p>
+            </div>
+        </section>
+        <!--Traço-->
+        <hr id="Preco">
+        <!--O melhor preço do mercado-->
+        <p class="Codigo2" data-aos="fade-down">&lt;O melhor preço do mercado!/&gt;</p>
+        <!--Título do preço e valor-->
+        <h1 class="Titulo_preco_valor" data-aos="fade-up">Aqui você paga pouco e recebe alto valor.</h1>
+        <!--Descriçao do preço e valor-->
+        <h6 style="margin-bottom: 10px; color: transparent;">/</h6>
+        <p class="Descricao_preco_valor">Ao contrário da concorrência, nós conseguimos fazer preços de free-lancer com qualidade de Startup! Tudo isso é possível porque nós nunca tivemos o propósito do dinheiro mas sim o de agregar valor por baixo custo!</p>
+        <!--Seção do preço e valor-->
+        <section class="Secao_precos_valor">
+            <!--Divisão padrão-->
+            <div class="Divisao_padrao" data-aos="fade-down">
+                <!--Título padrão-->
+                <h2 class="Padrao">Padrão</h2>
+                <!--Descrição do padrão-->
+                <p class="Descricao_padrao">Preço de projetos básicos.</p>
+                <!--Site padrão-->
+                <h3 class="Site">Site</h3>
+                <!--Divisão do site-->
+                <div class="Site_divisao">
+                    <!--Cifrão do site padrão-->
+                    <h3 class="Cifrao">R$</h3>
+                    <!--Preço do site padrão-->
+                    <h2 class="Preco_padrao">199,99</h2>
+                    <!--Adiantamento do site padrão-->
+                    <p class="Adiantamento">/50% Adiantados</p>
+                </div>
+                <!--Aplicativo padrão-->
+                <h3 class="Aplicativo">Aplicativo</h3>
+                <!--Divisão do aplicativo-->
+                <div class="Aplicativo_divisao">
+                    <!--Cifrão do aplicativo padrão-->
+                    <h3 class="Cifrao">R$</h3>
+                    <!--Preço do aplicativo padrão-->
+                    <h2 class="Preco_padrao_2">299,99</h2>
+                    <!--Adiantamento do aplicativo padrão-->
+                    <p class="Adiantamento_2">/50% Adiantados</p>
+                </div>
+                <!--Software padrão-->
+                <h3 class="Software">Software</h3>
+                <!--Divisão do software-->
+                <div class="Software_divisao">
+                    <!--Cifrão do software padrão-->
+                    <h3 class="Cifrao_3">R$</h3>
+                    <!--Preço do software padrão-->
+                    <h2 class="Preco_padrao_3">149,99</h2>
+                    <!--Adiantamento do software padrão-->
+                    <p class="Adiantamento_3">/50% Adiantados</p>
+                </div>
+            </div>
+            <!--Divisão premium-->
+            <div class="Divisao_premium" data-aos="fade-up">
+                <!--Título premium-->
+                <h2 class="Premium">Premium</h2>
+                <!--Descrição do premium-->
+                <p class="Descricao_padrao">Preço de projetos avançados.</p>
+                <!--Site premium-->
+                <h3 class="Site">Site</h3>
+                <!--Divisão do site-->
+                <div class="Site_divisao">
+                    <!--Cifrão do site premium-->
+                    <h3 class="Cifrao">R$</h3>
+                    <!--Preço do site premium-->
+                    <h2 class="Preco_premium">1.499,99</h2>
+                    <!--Adiantamento do site premium-->
+                    <p class="Adiantamento">/50% Adiantados</p>
+                </div>
+                <!--Aplicativo padrão-->
+                <h3 class="Aplicativo">Aplicativo</h3>
+                <!--Divisão do aplicativo-->
+                <div class="Aplicativo_divisao">
+                    <!--Cifrão do aplicativo premium-->
+                    <h3 class="Cifrao">R$</h3>
+                    <!--Preço do aplicativo premium-->
+                    <h2 class="Preco_padrao_2">1.899,99</h2>
+                    <!--Adiantamento do aplicativo premium-->
+                    <p class="Adiantamento_4">/50% Adiantados</p>
+                </div>
+                <!--Software premium-->
+                <h3 class="Software">Software</h3>
+                <!--Divisão do software-->
+                <div class="Software_divisao">
+                    <!--Cifrão do software premium-->
+                    <h3 class="Cifrao_premium_1">R$</h3>
+                    <!--Preço do software premium-->
+                    <h2 class="Preco_premium_3">799,99</h2>
+                    <!--Adiantamento do software premium-->
+                    <p class="Adiantamento_premium_1">/50% Adiantados</p>
+                </div>
+            </div>
+            <!--Divisão médio-->
+            <div class="Divisao_medio" data-aos="fade-down">
+                <!--Título médio-->
+                <h2 class="Medio">Médio</h2>
+                <!--Descrição do médio-->
+                <p class="Descricao_medio">Preço de projetos médios.</p>
+                <!--Site médio-->
+                <h3 class="Site">Site</h3>
+                <!--Divisão do site-->
+                <div class="Site_divisao">
+                    <!--Cifrão do site médio-->
+                    <h3 class="Cifrao">R$</h3>
+                    <!--Preço do site médio-->
+                    <h2 class="Preco_medio">499,99</h2>
+                    <!--Adiantamento do site médio-->
+                    <p class="Adiantamento">/50% Adiantados</p>
+                </div>
+                <!--Aplicativo medio-->
+                <h3 class="Aplicativo">Aplicativo</h3>
+                <!--Divisão do aplicativo-->
+                <div class="Aplicativo_divisao">
+                    <!--Cifrão do aplicativo médio-->
+                    <h3 class="Cifrao">R$</h3>
+                    <!--Preço do aplicativo médio-->
+                    <h2 class="Preco_medio_2">799,99</h2>
+                    <!--Adiantamento do aplicativo medio-->
+                    <p class="Adiantamento_medio_2">/50% Adiantados</p>
+                </div>
+                <!--Software medio-->
+                <h3 class="Software">Software</h3>
+                <!--Divisão do software-->
+                <div class="Software_divisao">
+                    <!--Cifrão do software medio-->
+                    <h3 class="Cifrao_medio">R$</h3>
+                    <!--Preço do software medio-->
+                    <h2 class="Preco_medio_3">299,99</h2>
+                    <!--Adiantamento do software médio-->
+                    <p class="Adiantamento_medio_3">/50% Adiantados</p>
+                </div>
+            </div>
+        </section>
+        <!--Traço-->
+        <hr id="Cases">
+        <!--Acommpanhe alguns de nossos cases-->
+        <h1 class="Nossos_cases" data-aos="fade-up">Acompanhe alguns de nossos cases.</h1>
+        <!--Descriçaõ de alguns de nossos cases-->
+        <p class="Resumo_nossos">Não é só falar bem, tem que mostrar, certo? Então acompanhe abaixo alguns de nossos cases de sucesso!</p>
+        <!--Gridview dos cases-->
+        <div class="grid-cases">
+            <!--Case 1-->
+            <div data-aos="fade-up">
+                <!--Imagem do case 1-->
+                <img style="height: 500px;" src="..//Img/case1.png">
+            </div>
+            <!--Case 2-->
+            <div data-aos="fade-up">
+                <!--Imagem do case 2-->
+                <img src="..//Img/case2.png">
+            </div>
+            <!--Case 3-->
+            <div data-aos="fade-down">
+                <!--Imagem do case 3 -->
+                <img src="..//Img/case3.png">
+            </div>
+            <!--Case 4-->
+            <div data-aos="fade-down">
+                <!--Imagem do case 4-->
+                <img src="..//Img/case4.png">
+            </div>
+        </div>
+        <!--Traço-->
+        <hr id="Sobre">
+        <!--Sobre o que somos-->
+        <h1 class="Sobre_nós" data-aos="fade-up">Somos uma Startup focada em desenvolvimentos de softwares.</h1>
+        <!--Descrição sobre nós-->
+        <p class="Descricao_sobre">Nossa jornada começou em 2019! Ao ver a dor que era contratar um serviço de software, acabamos tendo a iniciativa de montar uma equipe que iria facilitar essa demanda. E foi assim que a Nubia se tornou a primeira Startup brasileira a realizar estes tipos de serviços com preços acessíveis para todos.</p>
+        <!--Divisão sobre o David (Fundador da Nubia)-->
+        <div class="Divisao_david" data-aos="fade-up">
+            <!--Imagem do David-->
+            <img class="David" src="..//img/david.png" data-aos="fade-left">
+            <!--Divisão para as informações do David-->
+            <div class="Divisao_david_informacoes">
+                <!--Nome do david-->
+                <h3 class="Nome" data-aos="fade-down">David Lins</h3>
+                <!--Cargo do david-->
+                <p class="Cargo">&lt;Programador/&gt;</p>
+            </div>
+            <!--Descrição sobre o david-->
+            <p class="Descricao_david">David Oliveira Lins é um programador e empresário Brasileiro, que ficou conhecido nacionalmente por ser o fundador da Nubia com apenas 15 anos, atualmente com 18. A Nubia é uma Startup focada em desenvolvimentos de softwares.</p>
+            <h6 style="margin-bottom: 250px; color: transparent;">/</h6>
+        </div>
+        <!--Traço-->
+        <hr>
     </main>
+    <!--Rodapé-->
+    <footer>
+        <!--Logo da Nubia-->
+        <img class="Logo_2" src="..//Img/logo.png" data-aos="fade-up">
+        <!--Direitos da Nubia-->
+        <p class="Copyright">Nubia 2019 - 2022 Todos os direitos reservados! Parque internacional - Campo Limpo Paulista Brasil - Contato: +55 11 95433-2227, E-mail: nubiagraphics@gmail.com</p>
+        <h6 style="margin-bottom: 30px; color: transparent;">/</h6>
+    </footer>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>

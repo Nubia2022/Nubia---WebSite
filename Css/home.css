@@ -1,7 +1,695 @@
 *{
-    color:white
+    color:white;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    padding: 0px;
+    font-style: bold;
+}
+
+*:focus {
+    outline: none;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+
+body::-webkit-scrollbar {
+  width: 0px;
+}
+
+body::-webkit-scrollbar-track {
+  background: black;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 0px;
+  border: 0px solid white;
 }
 
 body{
     background-color: black;
+    margin: 0px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+nav{
+    display: flex;
+    border: 3px solid white;
+    padding: 5px;
+}
+
+.Logo{
+    width: 100px;
+    margin-right: 20px;
+}
+
+.Inicio{
+    font-size: 15px;
+    position: relative;
+    top: 45px;
+    margin-right: 40px;
+}
+
+.Precos{
+    font-size: 15px;
+    position: relative;
+    top: 45px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-right: 40px;
+}
+
+.Precos:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+.Cases{
+    font-size: 15px;
+    position: relative;
+    top: 45px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-right: 40px;
+}
+
+.Cases:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+.Sobre{
+    font-size: 15px;
+    position: relative;
+    top: 45px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-right: auto;
+}
+
+.Sobre:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+.Brasil{
+    font-size: 15px;
+    position: relative;
+    top: 30px;
+    right: 40px;
+}
+
+.Solicitar_orcamento{
+    background-color: transparent;
+    border: 3px solid white;
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    position: relative;
+    top: 27px;
+    right: 20px;
+}
+
+Header{
+    text-align: center;
+    padding: 70px;
+}
+
+.Codigo1{
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.Titulo_principal{
+    font-size: 60px;
+    width: 790px;
+    margin: 0 auto;
+}
+
+.Descricao_1{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+    width: 550px;
+    margin: 0 auto;
+}
+
+.Divisao_email{
+    border: 3px solid white;
+    width: 400px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 8px;
+}
+
+.E-mail{
+    background-color: transparent;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    border: none;
+    width: 300px;
+}
+
+.Enviar_email{
+    background-color: transparent;
+    position: relative;
+}
+
+.Imagem_enviar_email{
+    width: 30px;
+    position: relative;
+    left: 50px;
+}
+
+.VSCode{
+    width: 1100px;
+    height: 580px;
+    display: block;
+    margin: 0 auto;
+    display: inline-blockn;
+}
+
+.Ponto{
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top: 80px;
+}
+
+.Secao_1{
+    display: flex;
+    margin: 130px;
+    position: relative;
+    top: 40px;
+}
+
+.Titulo_vscode{
+    font-size: 40px;
+    width: 600px;
+}
+
+.Descricao_vscode{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.5);
+    width: 450px;
+}
+
+.Saiba_mais{
+    background-color: transparent;
+    border: 3px solid white;
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.Img_vscode{
+    width: 300px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.Porque_escolher_nubia{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 100px;
+}
+
+.grid-skills{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 80px;
+}
+
+.grid-skills > .grid-item{
+    width: 300px;
+    margin-right: 350px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.Icon{
+    width: 50px;
+}
+
+.Title{
+    font-size: 20px;
+}
+
+.Resume{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.Metodo_etapas{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 100px;
+}
+
+.Descricao_metodos{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.5);
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.Secao_2{
+    display: flex;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Divisao_briefing{
+    border: 3px solid white;
+    width: 550px;
+    height: 200px;
+    padding: 40px;
+    margin: 30px;
+}
+
+.Img_briefing{
+    width: 50px;
+}
+
+.Briefing{
+    font-size: 20px;
+}
+
+.Descricao_briefing{
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.Divisao_design{
+    border: 3px solid white;
+    width: 550px;
+    height: 200px;
+    padding: 40px;
+    margin: 30px;
+}
+
+.Img_design{
+    width: 50px;
+}
+
+.Design{
+    font-size: 20px;
+}
+
+.Descricao_design{
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.Divisao_desenvolvimento{
+    border: 3px solid white;
+    width: 550px;
+    height: 200px;
+    padding: 40px;
+    margin: 30px;
+}
+
+.Img_desenvolvimento{
+    width: 50px;
+}
+
+.Desenvolvimento{
+    font-size: 20px;
+}
+
+.Descricao_desenvolvimento{
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.Codigo2{
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin-top: 100px;
+}
+
+.Titulo_preco_valor{
+    text-align: center;
+    font-size: 60px;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.Descricao_preco_valor{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.5);
+    width: 680px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.Secao_precos_valor{
+    display: flex;
+    margin: 80px;
+}
+
+.Divisao_padrao{
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    width: 250px;
+    height: 500px;
+    padding: 40px;
+    margin: 30px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.Padrao{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+    position: relative;
+    bottom: 20px;
+}
+
+.Descricao_padrao{
+    text-align: center;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 50px;
+    position: relative;
+    bottom: 20px;
+}
+
+.Site_divisao{
+    display: flex;
+}
+
+.Cifrao{
+    font-size: 15x;
+    color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    bottom: 10px;
+}
+
+.Preco_padrao{
+    font-size: 30px;
+    position: relative;
+    left: 10px;
+    bottom: 23px;
+}
+
+.Adiantamento{
+    font-size: 13px;
+    position: relative;
+    left: 20px;
+    top: 3px;
+}
+
+
+.Aplicativo{
+    position: relative;
+    bottom: 20px;
+}
+
+.Preco_padrao_2{
+    font-size: 30px;
+    position: relative;
+    left: 35px;
+    bottom: 65px;
+}
+
+.Adiantamento_2{
+    font-size: 13px;
+    position: relative;
+    left: 140px;
+    bottom: 110px;
+}
+
+.Software{
+    position: relative;
+    bottom: 80px;
+}
+
+.Cifrao_3{
+    position: relative;
+    bottom: 70px;
+    font-size: 15x;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.Preco_padrao_3{
+    font-size: 30px;
+    position: relative;
+    left: 35px;
+    bottom: 125px;
+}
+
+.Adiantamento_3{
+    font-size: 13px;
+    position: relative;
+    left: 140px;
+    bottom: 170px;
+}
+
+.Divisao_premium{
+    border: 3px solid white;
+    width: 250px;
+    height: 500px;
+    padding: 40px;
+    margin: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Premium{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+    position: relative;
+    bottom: 20px;
+}
+
+.Descricao_padrao{
+    text-align: center;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 50px;
+    position: relative;
+    bottom: 20px;
+}
+
+.Preco_premium{
+    position: relative;
+    bottom: 23px;
+    left: 10px;
+    font-size: 30px;
+}
+
+.Preco_premium_2{
+    position: relative;
+    bottom: 150px;
+    left: 10px;
+    font-size: 30px;
+}
+
+.Adiantamento_4{
+    font-size: 13px;
+    position: relative;
+    left: 163px;
+    bottom: 110px;
+}
+
+.Cifrao_premium_1{
+    position: relative;
+    bottom: 70px;
+    font-size: 15x;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.Preco_premium_3{
+    position: relative;
+    bottom: 123px;
+    left: 35px;
+    font-size: 30px;
+}
+
+.Adiantamento_premium_1{
+    font-size: 13px;
+    position: relative;
+    left: 140px;
+    bottom: 170px;
+}
+
+.Divisao_medio{
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    width: 250px;
+    height: 500px;
+    padding: 40px;
+    margin: 30px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.Medio{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+    position: relative;
+    bottom: 20px;
+}
+
+.Preco_medio{
+    position: relative;
+    bottom: 23px;
+    left: 10px;
+    font-size: 30px;
+}
+
+.Descricao_medio{
+    text-align: center;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 50px;
+    position: relative;
+    bottom: 20px;  
+}
+
+.Preco_medio_2{
+    position: relative;
+    bottom: 60px;
+    left: 35px;
+    font-size: 30px;
+}
+
+.Adiantamento_medio_2{
+    font-size: 13px;
+    position: relative;
+    left: 140px;
+    bottom: 103px;
+}
+
+.Cifrao_medio{
+    position: relative;
+    bottom: 70px;
+    font-size: 15x;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.Preco_medio_3{
+    position: relative;
+    bottom: 123px;
+    left: 35px;
+    font-size: 30px;
+}
+
+.Adiantamento_medio_3{
+    font-size: 13px;
+    position: relative;
+    left: 140px;
+    bottom: 167px;
+}
+
+.Nossos_cases{
+    padding: 80px;
+    font-size: 60px;
+    margin: 0 auto;
+    width: 620px;
+    text-align: center;
+}
+
+.Resumo_nossos{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+}
+
+.grid-cases{
+  display: grid;
+  grid-template-columns: auto auto;  
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.grid-cases > div > img{
+    width: 500px;
+    margin: 40px;
+}
+
+.Sobre_nós{
+    padding: 80px;
+    font-size: 60px;
+    margin: 0 auto;
+    width: 1000px;
+    text-align: center;
+}
+
+.Descricao_sobre{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0 auto;
+    width: 800px;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+}
+
+.Divisao_david{
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+    position: relative;
+    left: 140px;
+    top: 50px;
+}
+
+.David{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    position: relative;
+    top: 20px;
+}
+
+.Divisao_david_informacoes{
+    display: flex;
+}
+
+.Nome{
+    width: 120px;
+}
+
+.Cargo{
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    top: 13px;
+    right: 10px;
+    display: block;
+}
+
+.Descricao_david{
+    position: relative;
+    top: 50px;
+    right: 200px;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.5);
+    width: 400px;
+}
+
+footer{
+    text-align: center;
+}
+
+.Logo_2{
+    margin-top: 50px;
+}
+
+.Copyright{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+    width: 600px;
+    margin: 0 auto;
+    padding: 50px;
 }
