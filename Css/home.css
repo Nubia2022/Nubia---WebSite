@@ -693,3 +693,484 @@ footer{
     margin: 0 auto;
     padding: 50px;
 }
+
+/*Design mobile*/
+@media (min-width: 375px) and (max-width: 420px){
+    nav{
+    display: flex;
+    border: 3px solid white;
+    padding: 8px;
+    }
+    .Logo{
+        width: 55px;
+        height: 55px;
+        margin-right: 35px;
+    }
+    .Inicio{
+    font-size: 12px;
+    position: relative;
+    top: 22px;
+    right: 8px;
+    margin-right: 30px;
+}
+
+.Precos{
+    font-size: 12px;
+    position: relative;
+    top: 22px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-right: 30px;
+}
+
+.Precos:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+.Cases{
+    font-size: 12px;
+    position: relative;
+    top: 22px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-right: 30px;
+}
+
+.Cases:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+.Sobre{
+    font-size: 12px;
+    position: relative;
+    top: 22px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-right: auto;
+}
+
+.Sobre:hover{
+    color: white;
+    transition: 0.5s;
+}
+.Brasil{
+    font-size: 15px;
+    width: 0px;
+    height: 0px;
+    visibility: hidden;
+}
+
+.Solicitar_orcamento{
+    background-color: transparent;
+    border: 3px solid white;
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    position: relative;
+    top: 27px;
+    right: 20px;
+    width: 0px;
+    visibility: hidden;
+}
+Header{
+    text-align: center;
+    padding: 50px;
+}
+.Codigo1{
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 13px;
+}
+
+.Titulo_principal{
+    font-size: 25px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.point{
+    width: 5px;
+    height: 1px;
+}
+
+.Descricao_1{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+    width: 280px;
+    margin: 0 auto;
+}
+.Divisao_email{
+    border: 3px solid white;
+    width: 250px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 5px;
+}
+
+.E-mail{
+    background-color: transparent;
+    position: relative;
+    bottom: 8px;
+    left: 10px;
+    border: none;
+    width: 200px;
+}
+
+.Enviar_email{
+    background-color: transparent;
+    position: relative;
+    border: none;
+}
+
+.Imagem_enviar_email{
+    width: 30px;
+    position: relative;
+    top: 1px;
+    left: 10px;
+}
+.point2{
+    font-size: 12px;
+}
+.VSCode{
+    width: 300px;
+    height: 180px;
+    display: block;
+    margin: 0 auto;
+    display: inline-blockn;
+}
+
+.Ponto{
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top: 50px;
+    height: 40px;
+}
+.Secao_1{
+    display: flex;
+    margin: 50px;
+    position: relative;
+    top: 40px;
+}
+
+.Titulo_vscode{
+    font-size: 25px;
+    width: 300px;
+}
+
+.Descricao_vscode{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+    width: 300px;
+}
+
+.Saiba_mais{
+    background-color: transparent;
+    border: 3px solid white;
+    width: 120px;
+    height: 50px;
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+.Img_vscode{
+    width: 300px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.Porque_escolher_nubia{
+    text-align: left;
+    font-size: 25px;
+    margin-top: 80px;
+    width: 250px;
+    margin: 50px;
+    position: relative;
+    top: 20px;
+}
+.Secao_2{
+    display: block;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.grid-skills{
+  display: grid;
+  grid-template-columns: auto;
+  padding: 20px;
+}
+.Icon{
+    width: 40px;
+}
+
+.Title{
+    font-size: 18px;
+}
+
+.Resume{
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.5);
+    width: 250px;
+}
+grid-skills > .grid-item{
+    width: 200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.Metodo_etapas{
+    text-align: left;
+    font-size: 25px;
+    margin-top: 80px;
+    position: relative;
+    left: 50px;
+}
+
+.Descricao_metodos{
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.5);
+    width: 250px;
+    text-align: left;
+    margin: 0 auto;
+    position: relative;
+    right: 20px;
+}
+
+.Secao_2{
+    display: block;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.Divisao_briefing{
+    border: 3px solid white;
+    width: 250px;
+    height: 200px;
+    padding: 20px;
+    margin: 30px;
+}
+.Img_briefing{
+    width: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.Briefing{
+    font-size: 15px;
+}
+
+.Descricao_briefing{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.Divisao_design{
+    margin-top: 20px;
+    border: 3px solid white;
+    width: 250px;
+    height: 200px;
+    padding: 20px;
+    margin: 30px;
+}
+.Img_design{
+    width: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.Design{
+    font-size: 15px;
+}
+
+.Descricao_design{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.Divisao_desenvolvimento{
+    margin-top: 20px;
+    border: 3px solid white;
+    width: 250px;
+    height: 200px;
+    padding: 20px;
+    margin: 30px;
+}
+.Img_desenvolvimento{
+    width: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.Desenvolvimento{
+    font-size: 15px;
+}
+
+.Descricao_desenvolvimento{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.Codigo2{
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin-top: 80px;
+    font-size: 13px;
+}
+.Titulo_preco_valor{
+    text-align: center;
+    font-size: 25px;
+    width: 300px;
+    margin: 0 auto;
+}
+.point3{
+    font-size: 1px;
+}
+.Descricao_preco_valor{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+    width: 320px;
+    text-align: center;
+    margin: 0 auto;
+}
+.Secao_precos_valor{
+    display: block;
+    position: relative;
+    right: 80px;
+}
+.Divisao_padrao{
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    width: 250px;
+    height: 500px;
+    position: relative;
+    bottom: 80px;
+}
+.Divisao_premium{
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    width: 250px;
+    height: 500px;
+    margin-bottom: 60px;
+}
+.Divisao_medio{
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    width: 250px;
+    height: 500px;
+    position: relative;
+    bottom: 70px;
+}
+.Nossos_cases{
+    padding: 50px;
+    font-size: 25px;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.Resumo_nossos{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0 auto;
+    width: 250px;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+}
+.grid-cases{
+  display: grid;
+  grid-template-columns: auto;  
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.grid-cases > div > img{
+    width: 300px;
+    height: 250px;
+    margin: 20px;
+}
+.grid-cases > img{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
+.Sobre_nós{
+    padding: 20px;
+    font-size: 20px;
+    margin: 0 auto;
+    width: 270px;
+    text-align: left;
+    margin-top: 80px;
+    position: relative;
+    right: 15px;
+}
+
+.Descricao_sobre{
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0 auto;
+    width: 305px;
+    text-align: left;
+    position: relative;
+    margin-top: 30px;
+}
+.Divisao_david{
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+    left: 45px;
+}
+
+.David{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    position: relative;
+    top: 20px;
+}
+
+.Divisao_david_informacoes{
+    display: flex;
+    position: relative;
+}
+
+.Nome{
+    width: 100px;
+    font-size: 15px;
+    position: relative;
+    top: 5px;
+}
+
+.Cargo{
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    top: 12px;
+    right: 10px;
+    display: block;
+}
+
+.Descricao_david{
+    position: relative;
+    top: 40px;
+    right: 180px;
+    font-size: 9px;
+    color: rgba(255, 255, 255, 0.5);
+    width: 200px;
+}
+.Logo_2{
+    width: 80px;
+    height: 80px;
+}
+.Copyright{
+    font-size: 12px;
+    width: 300px;
+    margin-bottom: 50px;
+}
+.Img_vscode{
+    width: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    visibility: hidden;
+}
+body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.point4{
+    margin-bottom: 1px;
+    font-size: 1px;
+}
+}
